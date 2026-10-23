@@ -1,0 +1,11 @@
+asset_id,hostname,ip,team,business_unit,criticality_tier,match_rule,match_score
+A-001,pay-api-01.prod.corp,10.10.4.21,Payments Platform,Payments,tier1,exact,1.0
+A-002,PAYAPI02,10.10.4.22,Payments Platform,Payments,tier1,exact,1.0
+A-003,idp-auth-01.prod.corp,10.20.1.5,Customer Identity,Security,tier1,exact,1.0
+A-004,idp-auth-02,10.20.1.6,Customer Identity,Security,tier1,fuzzy,0.89
+A-005,dwh-etl-01.prod.corp,10.30.8.11,Data Platform,Analytics,tier2,exact,1.0
+A-006,web-portal-01.prod.corp,172.16.3.9,Digital Channels,Marketing,tier2,exact,1.0
+A-007,webportal01-dr,172.16.3.10,Digital Channels,Marketing,tier2,fuzzy,0.92
+A-008,legacy-batch-07,192.168.50.7,,,tier3,none,0.0
+A-009,dwh-etl-02.prod.corp,10.30.8.12,Data Platform,Analytics,tier2,exact,1.0
+A-010,etl-worker-x9,10.30.9.40,Data Platform,,tier3,subnet,0.5

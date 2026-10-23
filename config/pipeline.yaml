@@ -1,0 +1,27 @@
+# Pipeline configuration. Ownership rules live here as version-controlled code.
+nvd:
+  api_url: https://services.nvd.nist.gov/rest/json/cves/2.0
+  keywords: [log4j, openssl, nginx, "apache http server", openssh, postgresql]
+  results_per_keyword: 2000   # NVD max page size, so older CVEs are included
+  use_sample_if_offline: true
+
+matching:
+  hostname_similarity_threshold: 0.85   # fuzzy match cutoff for hostname -> owner
+
+# Fallback ownership by network range, used when hostname matching fails.
+subnet_owners:
+  - cidr: 10.10.0.0/16
+    team: Payments Platform
+  - cidr: 10.20.0.0/16
+    team: Customer Identity
+  - cidr: 10.30.0.0/16
+    team: Data Platform
+
+criticality_weights:   # business criticality tier -> risk multiplier
+  tier1: 3.0
+  tier2: 2.0
+  tier3: 1.0
+
+quality:
+  max_unattributed_pct: 10     # fail the run if more assets than this have no owner
+  max_missing_version_pct: 15

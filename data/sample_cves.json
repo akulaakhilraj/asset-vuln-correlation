@@ -1,0 +1,8 @@
+[
+  {"cve_id": "CVE-2021-44228", "product": "log4j", "min_version": "2.0", "max_version": "2.14.1", "cvss": 10.0, "summary": "Log4Shell remote code execution via JNDI lookups"},
+  {"cve_id": "CVE-2014-0160", "product": "openssl", "min_version": "1.0.1", "max_version": "1.0.1f", "cvss": 7.5, "summary": "Heartbleed memory disclosure in TLS heartbeat"},
+  {"cve_id": "CVE-2022-0778", "product": "openssl", "min_version": "1.1.1", "max_version": "1.1.1m", "cvss": 7.5, "summary": "Infinite loop in BN_mod_sqrt when parsing certificates"},
+  {"cve_id": "CVE-2021-23017", "product": "nginx", "min_version": "0.6.18", "max_version": "1.20.0", "cvss": 7.7, "summary": "Off-by-one in resolver"},
+  {"cve_id": "CVE-2021-41773", "product": "apache http server", "min_version": "2.4.49", "max_version": "2.4.49", "cvss": 7.5, "summary": "Path traversal in Apache HTTP Server 2.4.49"},
+  {"cve_id": "CVE-2023-38408", "product": "openssh", "min_version": "0", "max_version": "9.3p1", "cvss": 9.8, "summary": "Remote code execution in ssh-agent PKCS#11 support"}
+]

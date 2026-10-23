@@ -1,0 +1,151 @@
+[
+  {
+    "asset_id": "A-001",
+    "hostname": "pay-api-01.prod.corp",
+    "ip": "10.10.4.21",
+    "software": [
+      {
+        "product": "nginx",
+        "version": "1.18.0"
+      },
+      {
+        "product": "openssl",
+        "version": "1.1.1k"
+      }
+    ]
+  },
+  {
+    "asset_id": "A-002",
+    "hostname": "PAYAPI02",
+    "ip": "10.10.4.22",
+    "software": [
+      {
+        "product": "nginx",
+        "version": "1.24.0"
+      },
+      {
+        "product": "openssl",
+        "version": "3.0.12"
+      }
+    ]
+  },
+  {
+    "asset_id": "A-003",
+    "hostname": "idp-auth-01.prod.corp",
+    "ip": "10.20.1.5",
+    "software": [
+      {
+        "product": "log4j",
+        "version": "2.14.1"
+      },
+      {
+        "product": "openssh",
+        "version": "8.9p1"
+      }
+    ]
+  },
+  {
+    "asset_id": "A-004",
+    "hostname": "idp-auth-02",
+    "ip": "10.20.1.6",
+    "software": [
+      {
+        "product": "log4j",
+        "version": "2.17.1"
+      },
+      {
+        "product": "openssh",
+        "version": "9.6p1"
+      }
+    ]
+  },
+  {
+    "asset_id": "A-005",
+    "hostname": "dwh-etl-01.prod.corp",
+    "ip": "10.30.8.11",
+    "software": [
+      {
+        "product": "postgresql",
+        "version": "13.2"
+      },
+      {
+        "product": "openssh",
+        "version": "8.4p1"
+      }
+    ]
+  },
+  {
+    "asset_id": "A-006",
+    "hostname": "web-portal-01.prod.corp",
+    "ip": "172.16.3.9",
+    "software": [
+      {
+        "product": "apache http server",
+        "version": "2.4.49"
+      }
+    ]
+  },
+  {
+    "asset_id": "A-007",
+    "hostname": "webportal01-dr",
+    "ip": "172.16.3.10",
+    "software": [
+      {
+        "product": "apache http server",
+        "version": "2.4.58"
+      }
+    ]
+  },
+  {
+    "asset_id": "A-008",
+    "hostname": "legacy-batch-07",
+    "ip": "192.168.50.7",
+    "software": [
+      {
+        "product": "openssl",
+        "version": "1.0.1f"
+      },
+      {
+        "product": "openssh",
+        "version": ""
+      }
+    ]
+  },
+  {
+    "asset_id": "A-009",
+    "hostname": "dwh-etl-02.prod.corp",
+    "ip": "10.30.8.12",
+    "software": [
+      {
+        "product": "postgresql",
+        "version": "15.4"
+      }
+    ]
+  },
+  {
+    "asset_id": "A-010",
+    "hostname": "etl-worker-x9",
+    "ip": "10.30.9.40",
+    "software": [
+      {
+        "product": "postgresql",
+        "version": "13.2"
+      },
+      {
+        "product": "openssh",
+        "version": "9.3p1"
+      }
+    ]
+  },
+  {
+    "asset_id": "A-001",
+    "hostname": "pay-api-01.prod.corp",
+    "ip": "10.10.4.21",
+    "software": [
+      {
+        "product": "nginx",
+        "version": "1.18.0"
+      }
+    ]
+  }
+]

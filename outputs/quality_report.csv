@@ -1,0 +1,6 @@
+check,value,status,detail
+duplicate_asset_ids_removed,1.0,WARN,
+unattributed_assets_pct,10.0,PASS,A-008
+missing_software_version_pct,5.9,PASS,A-008
+findings_on_unowned_assets,74.0,WARN,vulnerabilities with no owner to remediate them
+fuzzy_or_subnet_matches,3.0,INFO,review lower-confidence ownership matches

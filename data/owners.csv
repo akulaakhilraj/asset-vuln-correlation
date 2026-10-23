@@ -1,0 +1,7 @@
+hostname,team,business_unit,criticality_tier
+pay-api-01.prod.corp,Payments Platform,Payments,tier1
+pay-api-02.prod.corp,Payments Platform,Payments,tier1
+idp-auth-01.prod.corp,Customer Identity,Security,tier1
+dwh-etl-01.prod.corp,Data Platform,Analytics,tier2
+dwh-etl-02.prod.corp,Data Platform,Analytics,tier2
+web-portal-01.prod.corp,Digital Channels,Marketing,tier2
